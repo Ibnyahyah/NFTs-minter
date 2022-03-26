@@ -16,7 +16,7 @@ function WalletBalance(){
         <div className="mt-2">
             <div>
                 <h5 className="mt-2 mb-1">Your Balance :{balance}</h5>
-                <button onClick={()=>getBalance()} className="btn-green text-white">Show My Balance</button>
+                <button onClick={()=>getBalance()} className="btn-green text-white">{!balance?'Connect Wallet':'Show My Balance'}</button>
             </div>
         </div>
     )
