@@ -1,7 +1,7 @@
 import WalletBalance from "./walletBalance";
 import { useEffect, useState } from "react";
 import { ethers } from "ethers";
-
+import DummyImg from '../img/placeholder.svg';
 import Ibnyahyah from "../contracts/Ibnyahyah.json";
 
 const contractAddress = "0x4FB631e36D3915867671357AcE39625Af54C1Ae5";
@@ -78,7 +78,7 @@ function NFTImage({ tokenId, getCount }) {
 
   return (
         <div className="card bg-white">
-          <img src={isMinted ? imageURI : "img/placeholder.svg"} />
+          <img src={isMinted ? imageURI : DummyImg} />
           <div>
             <h5>ID #{tokenId}</h5>
             {!isMinted ? (
