@@ -2,7 +2,7 @@ import WalletBalance from "./walletBalance";
 import { useEffect, useState } from "react";
 import { ethers } from "ethers";
 
-import Ibnyahyah from "../artifacts/contracts/Ibnyahyah.sol/Ibnyahyah.json";
+import Ibnyahyah from "../contracts/Ibnyahyah.json";
 
 const contractAddress = "0x4FB631e36D3915867671357AcE39625Af54C1Ae5";
 
