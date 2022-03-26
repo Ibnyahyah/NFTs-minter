@@ -1,8 +1,8 @@
 const Install = ()=>{
     return(
-        <div className="text-center mt-5">
+        <div className="text-center mt-5 text-black">
             <h3>Follow the Link to install</h3>
-            <a hre="https://metamask.io/download.html" target="_blank" rel="noreferrer">Meta Mask</a>
+            <a href="https://metamask.io/download.html" target="_blank" rel="noreferrer" className="text-black">Meta Mask</a>
         </div>
     )
 }

@@ -78,7 +78,7 @@ function NFTImage({ tokenId, getCount }) {
 
   return (
         <div className="card bg-white">
-          <img src={isMinted ? imageURI : "./placeholder.svg"} />
+          <img src={isMinted ? imageURI : "img/placeholder.svg"} />
           <div>
             <h5>ID #{tokenId}</h5>
             {!isMinted ? (
